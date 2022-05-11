@@ -6,12 +6,12 @@ Passphrase protected file encryption/decryption.
 
 **Encryption:**
 ```
-python crypto.py -e your-passphrase ./file-to-encrypt
+python cryptography.py -e your-passphrase ./file-to-encrypt
 ```
 this will generate *encrypted.txt* on the same directory.
 
 **Decryption:**
 ```
-python crypto.py -d your-passphrase ./encrypted-file
+python cryptography.py -d your-passphrase ./encrypted-file
 ```
 this will generate *decrypted.txt* on the same directory.
